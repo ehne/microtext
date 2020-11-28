@@ -1,7 +1,7 @@
   
   
 <p>
-  <img alt="logo" src="https://gitcdn.xyz/repo/ehne/microtext/assets/microtext.png" align="center" />
+  <img alt="logo" src="https://gitcdn.xyz/repo/ehne/microtext/main/assets/microtext.png" align="center" />
 </p>
   
 #  microtext
