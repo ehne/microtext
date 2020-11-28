@@ -1,0 +1,31 @@
+{
+  "name": "microtext",
+  "version": "1.0.0",
+  "description": "a library of small (and probably inefficient) utility functions for messing with text.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehne/microtext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehne/microtext/issues"
+  },
+  "homepage": "https://github.com/ehne/microtext#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
