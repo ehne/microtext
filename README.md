@@ -134,3 +134,8 @@ where:
 - `variables` is an object of key-value pairs, where the key is the text inside the delimiter (λ), and the value is what to replace it with. **(required)**
 - `delimiter` is the symbol that is used to contain the variable names. The default is the `λ` symbol. **(optional)**
   
+---
+> Made by [@ehne](https://github.com/ehne ). Consider giving microtext a ⭐️ if it helped you!
+> 
+> ![npm](https://img.shields.io/npm/v/microtext ) ![GitHub Repo stars](https://img.shields.io/github/stars/ehne/microtext?style=social )
+  
