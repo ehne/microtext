@@ -1,10 +1,14 @@
   
   
+<p>
+  <img alt="logo" src="https://gitcdn.xyz/repo/ehne/microtext/assets/microtext.png" align="center" />
+</p>
+  
 #  microtext
   
 A library of small (and probably inefficient) utility functions for messing with text.
   
-#####  Getting started
+###  Getting started
   
   
 node:
@@ -18,12 +22,12 @@ $ npm i microtext
   
   
 - [micromarkup](#micromarkup )
-      - [Syntax](#syntax )
-      - [Usage](#usage )
-      - [Options](#options )
+  - [Syntax](#syntax )
+  - [Usage](#usage )
+  - [Options](#options )
 - [microtemplate](#microtemplate )
-      - [Syntax](#syntax-1 )
-      - [Usage](#usage-1 )
+  - [Syntax](#syntax-1 )
+  - [Usage](#usage-1 )
   
 ---
   
@@ -33,7 +37,7 @@ $ npm i microtext
   
 Takes input of a string and returns the appropriate html.
   
-#####  Syntax
+###  Syntax
   
 - **Links** — default
   - The exact same as normal markdown: 
@@ -56,7 +60,7 @@ Takes input of a string and returns the appropriate html.
   
 > **note:** micromarkup does not parse paragraphs into `<p>` tags.
   
-#####  Usage
+###  Usage
   
   
 ```js
@@ -77,7 +81,7 @@ where:
 - `inputText` is a string of micromarkup text formatted with the syntax above **(required)**
 - `options` is a key-value object that contains the options defined below **(optional)**
   
-#####  Options
+###  Options
   
 ```js
 default = {
@@ -103,14 +107,14 @@ default = {
   
 Takes inout of a string and returns another string with variables subbed in.
   
-#####  Syntax
+###  Syntax
   
 ```txt
 hello λworldVarλ
 ```
 Anything inside of the `λ` symbols will be treated as the variable name to replace with the text you want.
   
-#####  Usage
+###  Usage
   
 ```js
 //// BASIC
