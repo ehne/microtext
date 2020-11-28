@@ -1,4 +1,4 @@
-module.exports = function micromarkupParse (
+export default function micromarkupParse (
   inputText,
   options = {}
 ) {

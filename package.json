@@ -2,12 +2,16 @@
   "name": "microtext",
   "version": "1.0.0",
   "description": "a library of small (and probably inefficient) utility functions for messing with text.",
-  "main": "src/index.js",
   "directories": {
     "test": "tests"
   },
+  "source": "src/index.js",
+  "main": "dist/microtext.js",
+  "module": "dist/microtext.module.js",
+  "unpkg": "dist/microtext.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
   "repository": {
     "type": "git",
@@ -26,6 +30,7 @@
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint-plugin-promise": "^4.2.1",
+    "microbundle": "^0.12.4"
   }
 }

@@ -1,2 +1,2 @@
-exports.micromarkup = require('./micromarkup')
-exports.microtemplate = require('./microtemplate')
+export { default as micromarkup } from './micromarkup'
+export { default as microTemplate } from './microTemplate'
