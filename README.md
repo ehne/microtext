@@ -16,6 +16,11 @@ node:
 $ npm i microtext
 ```
   
+and in your js:
+```js
+const { micromarkup, microtemplate } = require('microtext')
+```
+  
 ---
   
 **Functions exported:**
