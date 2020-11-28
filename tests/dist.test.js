@@ -1,3 +1,3 @@
-const { micromarkup } = require('../dist/microtext')
+const { microtemplate } = require('../dist/microtext')
 
-console.log(micromarkup('**cool**'))
+console.log(microtemplate('**cool**', {}))

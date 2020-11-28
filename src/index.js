@@ -1,2 +1,2 @@
 export { default as micromarkup } from './micromarkup'
-export { default as microtemplate } from './microTemplate'
+export { default as microtemplate } from './microtemplate'
