@@ -21,6 +21,11 @@ and in your js:
 const { micromarkup, microtemplate } = require('microtext')
 ```
   
+or if you prefer ES Modules (browser):
+```js
+import { microtemplate, micromarkup } from 'https://cdn.skypack.dev/microtext';
+```
+  
 ---
   
 **Functions exported:**
