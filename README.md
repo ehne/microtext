@@ -38,6 +38,9 @@ import { microtemplate, micromarkup } from 'https://cdn.skypack.dev/microtext';
 - [microtemplate](#microtemplate )
   - [Syntax](#syntax-1 )
   - [Usage](#usage-1 )
+- [microdata](#microdata )
+  - [Syntax](#syntax-2 )
+  - [Usage](#usage-2 )
   
 ---
   
@@ -115,7 +118,7 @@ default = {
   
 *A simple template language that just inserts variables into your text.*
   
-Takes inout of a string and returns another string with variables subbed in.
+Takes input of a string and returns another string with variables subbed in.
   
 ###  Syntax
   
@@ -143,6 +146,42 @@ where:
 - `inputString` is the input text formatted with the syntax above. **(required)**
 - `variables` is an object of key-value pairs, where the key is the text inside the delimiter (λ), and the value is what to replace it with. **(required)**
 - `delimiter` is the symbol that is used to contain the variable names. The default is the `λ` symbol. **(optional)**
+  
+  
+##  microdata
+  
+*a very light data storage language, only really designed for static data.*
+  
+Takes a string input and returns a JS object.
+  
+###  Syntax
+  
+```md
+[hello]
+world
+```
+The above text returns the js:
+```js
+{
+  hello: "world",
+}
+```
+*note that microdata removes newlines from the original string for its very simple algorithm to work.*
+  
+###  Usage
+  
+```js
+//// BASIC
+// eg.
+microdata(`
+[hello]
+cool
+`) 
+/* returns:
+{
+  hello: "cool"
+}
+```
   
 ---
 > Made by [@ehne](https://github.com/ehne ). Consider giving microtext a ⭐️ if it helped you!
